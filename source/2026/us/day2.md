@@ -1,7 +1,9 @@
 # Day 2
 
-```{admonition} コラム：(terapyon LTコラム)
-```
+````{admonition} コラム：(terapyon LTコラム)
+ここにコラムを書いてね
+````
+
 
 ## Member Lunch
 
@@ -10,8 +12,9 @@
 * 質疑応答
 * 寺田さんと吉田さんの質問
 
-```{admonition} コラム：(yoshida MemberLunchについて書かない?)
-```
+````{admonition} コラム：(yoshida MemberLunchについて書かない?)
+ここにコラムを書いてね
+````
 
 ## Tachyon: Python 3.15's sampling profiler is faster than your code - PyCon US 2026
 
@@ -38,8 +41,9 @@ what;s happening now?
 * --gecko: Firefoxのprofilerを使える
 * あとでanalyzeする: --binary
 
-```{admonition} コラム：(koxudaxiコラムタイトル)
-```
+````{admonition} コラム：(koxudaxiコラムタイトル)
+ここにコラムを書いてね
+````
 
 ## mypyc?
 

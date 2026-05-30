@@ -25,3 +25,7 @@ language = 'ja'
 
 html_theme = 'furo'
 html_static_path = ['_static']
+
+comments_config = {
+   "hypothesis": True
+}
