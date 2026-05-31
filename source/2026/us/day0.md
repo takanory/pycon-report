@@ -33,6 +33,8 @@ PyCon USの名札
 
 ## Newcomer Orientation
 
+* <https://us.pycon.org/2026/events/newcomer-orientation/>
+
 カンファレンス1日前の5月15日(木)は夕方から「Newcomer Orientation」があります。
 このイベントでは、PyCon USの初参加者に向けて、イベントの楽しみ方などを説明してくれます。
 
@@ -55,3 +57,41 @@ PyCon USでは通常のトーク発表以外にもいろいろな楽しみ方が
 
 ## Opening Reception
 
+* <https://us.pycon.org/2026/events/opening-reception/>
+
+Newcomer Orientationが終わるとOpening Receptionです。
+Opening Receptionは軽食と1ドリンクが提供され、ビールなどを片手にスポンサーブースを回ったり、いろんな人と話したりできるというイベントです。
+
+スポンサーブースの図を見てみると、GitHub(Microsoft)、Meta、Bloombergが一番大きいブースのようです。
+右上の方にはコミュニティブースもあり、PAO(Python Asia Organization)もここにブースを構えています。
+
+```{figure} images/sponsor-map.jpg
+:width: 400
+
+スポンサーブースの地図
+```
+
+各ブースではさまざまなデモやグッズの配布などを行っています。
+とりわけ人気なのが[Kraken](https://kraken.tech/)のぬいぐるみです。
+以前PyCon JPでスポンサーしたときに指人形サイズのものをもらったことがありますが、今回は高さ20cm弱の小ぶりのぬいぐるみになっていました。
+私もおみやげ用にゲットしました。
+
+```{figure} images/kraken.jpg
+:width: 400
+
+スポンサーブースの地図
+```
+
+## Long Beach Beer Lab
+
+この日は[Long Beech Beer Lab](https://www.lbbeer.com/)に飲みに行きました。
+ビールの名前が「This is the Way IPA」「BREW of the FATES」「May The Shcwartz Be With You」「Darth Malt」のようにスターウォーズをもじった名前で私好みです。
+お店の方に聞いたところ、スターウォーズの日（5月4日）にはイベントが行われるそうです。
+
+ただ、缶のラベルが寄せすぎているので、ディズニーに怒られないかが心配です。
+
+```{figure} images/the-way-ipa.jpg
+:width: 400
+
+This is the Way IPA
+```
