@@ -1,11 +1,20 @@
 # Day 2
 
+````{admonition} コラム：(terapyon LTコラム)
+ここにコラムを書いてね
+````
+
+
 ## Member Lunch
 
 * Grantの期間はみじかくなった
 * 金額はAfricaが多いなぁ
 * 質疑応答
 * 寺田さんと吉田さんの質問
+
+````{admonition} コラム：(yoshida MemberLunchについて書かない?)
+ここにコラムを書いてね
+````
 
 ## Tachyon: Python 3.15's sampling profiler is faster than your code - PyCon US 2026
 
@@ -31,6 +40,10 @@ what;s happening now?
 * --diff-framegraph →パフォーマンスが上昇したか見れる
 * --gecko: Firefoxのprofilerを使える
 * あとでanalyzeする: --binary
+
+````{admonition} コラム：(koxudaxiコラムタイトル)
+ここにコラムを書いてね
+````
 
 ## mypyc?
 
