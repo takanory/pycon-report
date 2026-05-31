@@ -1,16 +1,21 @@
 # カンファレンス1日目
 
-* 5月15日
-* https://us.pycon.org/2026/schedule/talks/#May15
+* タイムテーブル：<https://us.pycon.org/2026/schedule/talks/#May15>
 
-## Welcome
+## WelcomeとPSF Welcome
 
-PyCon US 2026のChairであるElaineさんからのあいさつがありました。
+カンファレンスのオープニングはPyCon US 2026のChairであるElaine Wong氏によるWelcomeメッセージです。
 最初に関係者、スポンサーなどへの感謝が述べられました。
 
+```{figure} images/welcome.jpg
+:width: 400
+
+Elaine Wong氏によるWelcomeメッセージ
+```
+
 最初の方で「まわりの会ったことない人と会話してみましょう」というアイスブレイクがありました。
-筆者は、たまたま前に座っていたMark Shannonさんとあいさつをしました。
-Mark ShannonさんはPyCon JP 2022のキーノート[^marks-keynote]だった方で、私が日本から来たこと、日本でのキーノートをしたこと、日本にぜひ来てくださいという話をしました（2022のキーノートはリモート発表でした）。
+筆者は、前に座っていたMark Shannon氏とあいさつをしました。
+Mark氏はPyCon JP 2022のキーノート[^marks-keynote]だった方で「私が日本から来たこと、日本でのキーノートをしたこと、日本にぜひ来てください」といった話をしました（2022のキーノートはリモート発表でした）。
 
 [^marks-keynote]: [PyCon JP 2022: Day 1 OP & Keynote by Mark Shanonn - YouTube](https://www.youtube.com/watch?v=e_EbzeBf06g)
 
@@ -21,17 +26,20 @@ Mark ShannonさんはPyCon JP 2022のキーノート[^marks-keynote]だった方
 * セキュリティトラック（カンファレンス2日目）
 * Pablo氏によるスペイン語のキーノート（カンファレンス2日目の朝、同時通訳付き）
 
-Pablo氏は英語でも早口なので、母国語のスペイン語だとどんなスピードになっていしまうんだろう。通訳は間に合うんだろうか？という感想を持ちました。
-とはいえ、PyCon USで英語以外のキーノートを行うというのは、挑戦的だと思いました。
+PyCon USで英語以外のキーノートを行うというのは、挑戦的だと思いました。
+なお、Pablo氏は英語でも早口なので、母国語のスペイン語だとどんなスピードになっていしまうんだろう。通訳は間に合うんだろうか？という感想を持ちました。
 
-## PSF Welcome
+Welcomeの後はトップレベルのスポンサーによるショートとーくがありました。
+Nidia、Bloomberg、MetaがそれぞれCUDA、Memray、Pyrefly、Lazy imports、Free-threded Pythonなど、Pythonエコシステムへの貢献について紹介していました。
 
-## Keynote — Lin Qiao
+続いてDeb Nicholson氏によるPSF Welcomeです。Deb氏はPSFの[Executive Director](https://www.python.org/psf/records/staff/)です。
+PSF(Python Software Foundation)はPythonの権利を管理する団体です。
 
-* Fireworks AIのCEO、Co-Founder
-* MetaでPyTorch開発やっていた
-* 2026はyear of agents
-* cursor, Uber, Shopifyを例にあげる
+(TODO: deb氏の写真)
+
+Deb氏からは「魚を与えるだけでなく、釣り方を教えよ」ということわざを引用し、お互いに教えあうことがPythonコミュニティの強みである、と語られました。
+
+PSFの役割としてPythonの商標の管理、PyPIの運営サポート、多様性の支援が行われていることが紹介されました。
 
 ## Mind the Gap
 
