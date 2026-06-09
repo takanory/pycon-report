@@ -47,6 +47,12 @@ what;s happening now?
 
 今年は [Beyond Optional in Real-World Projects: Missing, None, and Unset](https://us.pycon.org/2026/schedule/presentation/28/) というタイトルで登壇しました。ありがたいことに、PyCon USでは2024年から三年連続で登壇する機会をいただきました。
 
+```{figure} images/koxudaxi-talk.jpg
+:width: 600
+
+PyCon US 2026で登壇する筆者
+```
+
 登壇を重ねるなかで感じるのは、話すテーマは、普段の開発と切り離された特別な話ではない、ということです。これまでのトークも、仕事やOSS活動の中で何度も見かけてきた問題がもとになっています。プロポーザルを書くたびに、その問題を自分用のメモのままにせず、聞いた人が「自分のプロジェクトでも使えそうだ」と思える形に整えられないかと考えてきました。
 
 今年扱ったのは、「値がないように見えるものにも、実はいくつか違う意味がある」という話です。Pythonでは `None` を使う場面がとても多いのですが、Web APIや設定ファイルのように外部からデータを受け取る場面では、値が指定されていないことと、明示的に `null` が送られてきたことは、必ずしも同じではありません。
@@ -65,4 +71,3 @@ what;s happening now?
 ## mypyc?
 
 ## PyLadis Auction
-
