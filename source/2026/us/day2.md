@@ -59,7 +59,7 @@ PyCon US 2026で登壇する筆者
 
 たとえば、PATCHメソッドでユーザー情報を一部だけ書き換える場面を考えてみます。`{"nickname": null}` が送られてきたら、ニックネームを消したいという意味かもしれません。一方で `nickname` というフィールド自体が送られていなければ、今の値を変えない、という意味になります。Python側で `payload.get("nickname")` のように書くと、どちらも `None` になり、リクエストの意図が失われます。
 
-こうした問題は、私がメンテナンスしているdatamodel-code-generatorでも何度も議論になってきました。これは、OpenAPIやJSON Schemaなどのスキーマから、PydanticモデルやdataclassesなどのPythonコードを生成するOSSです。スキーマでは、必須かどうか、`null` を許すか、省略されたときの扱いが、それぞれ別の意味を持ちます。これをPythonの型やデフォルト値にどう落とすかは、見た目以上に難しい問題です。
+こうした問題は、私がメンテナンスしている[datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator)でも何度も議論になってきました。これは、OpenAPIやJSON Schemaなどのスキーマから、PydanticモデルやdataclassesなどのPythonコードを生成するOSSです。スキーマでは、必須かどうか、`null` を許すか、省略されたときの扱いが、それぞれ別の意味を持ちます。これをPythonの型やデフォルト値にどう落とすかは、見た目以上に難しい問題です。
 
 今回のトークでは、payloadの形は `TypedDict` で表し、送られない可能性のあるフィールドは `NotRequired` で表しました。また、関数呼び出しで値が指定されていないことは `UNSET` のようなsentinelで表し、最後に `dataclasses` のモデルへ変換する流れを紹介しました。外から来たデータの意味を失わないために、どこで何を区別するかという話です。
 
