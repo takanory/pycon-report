@@ -39,7 +39,7 @@ PSF(Python Software Foundation)はPythonの権利を管理する団体です。
 
 Deb氏からは「魚を与えるだけでなく、釣り方を教えよ」ということわざを引用し、お互いに教えあうことがPythonコミュニティの強みである、と語られました。
 
-## PEP 750 - T-strings: safer and smarter string processing - PyCon US 2026
+## PEP 750 - T-strings: safer and smarter string processing
 
 * トーク概要：<https://us.pycon.org/2026/schedule/presentation/70/>
 * スピーカー：[Vinícius Gubiani Ferreira](https://us.pycon.org/2026/speaker/profile/73/)
@@ -59,10 +59,10 @@ t-stringsでは文字列ではなくTemplateオブジェクトが生成される
 ログ出力の出し分けは、なかなか実用的だなと感じました。
 今後どこかで使用するかもしれません。
 
-## What's so hard about writing a type checker? A tour of ty - PyCon US 2026
+## What's so hard about writing a type checker? A tour of ty
 
 * トーク概要：<https://us.pycon.org/2026/schedule/presentation/143/>
-* スピーカー：[Carl Meyer - PyCon US 2026](https://us.pycon.org/2026/speaker/profile/151/)
+* スピーカー：[Carl Meyer](https://us.pycon.org/2026/speaker/profile/151/)
 
 本トークではAstral社のエンジニアであるCarl Meyer氏から、Pythonの静的型チェッカーtyの内部構造について解説がされました。
 tyは高速な方チェッカーであり、高速に動作するためにアーキテクチャーやさまざまな工夫について語られました。
@@ -87,18 +87,114 @@ tyではコードの依存関係グラフを持っています。
 tyを高速に動作させるためにはただ単にrustを使っているというだけでなく、いろいろと内部のアーキテクチャでも工夫をしているということが感じられるトークでした。
 Astral社のツールは[Ruff](https://docs.astral.sh/ruff/)、[uv](https://docs.astral.sh/uv/)も高速に動作しますが、それぞれにさまざまな工夫がされていると感じるトークでした。
 
-## The Bakery: How PEP810 sped up my bread operations business - PyCon US 2026
+## ランチ
 
-* https://us.pycon.org/2026/schedule/presentation/30/
-* Python起動時に重たいよね
-* PEP 810でlazy import。3.15から追加
-* 1. Parse Pahse
-* 2. proxyが作られる
-* 3. 実際にアクセスするときに実際にimportしてproxyを透過する
-* 移行
-  * python -X importtime -c "import mymodule" で計測
+ランチはビュッフェ形式です。
+生野菜のサラダ、野菜のロースト、パスタ、チキン、デザートなどがメニューとして用意されています。
+アメリカ滞在中はなかなか生野菜を食べる機会がないので、とてもありがたいです。
 
-## How to port a Python kernel to Pyodide for a blazingly fast in-browser coding experience - PyCon US 2026
+```{figure} images/lunch-day1.jpg
+:width: 400
+
+ランチはビュッフェスタイル
+```
+
+ランチのあとは企業ブースを回りました。
+Metaのブースではコーヒーを提供していたので、その列に並びました。
+列で待っている間にクイズに答えると、おまけでクッキーがもらえます。
+クッキーには静的型チェッカー[Pyrefly](https://pyrefly.org/)ロゴが印刷されてました。
+
+```{figure} images/meta-coffee.jpg
+:width: 300
+
+Metaブースのコーヒー
+```
+
+```{figure} images/pyrefly-cookie.jpg
+:width: 300
+
+Pyreflyクッキー
+```
+
+## The Bakery: How PEP810 sped up my bread operations business
+
+* トーク概要：<https://us.pycon.org/2026/schedule/presentation/30/>
+* スピーカー：[Jacob Coffee](https://us.pycon.org/2026/speaker/profile/31/)
+* スライド：<https://fosdem.org/2026/events/attachments/HAAABD-python-pep810/slides/266934/talk_-_co_chhdrub.pdf>
+
+
+Python 3.15で導入される`lazy import`を使用して、サンプルのCLIプログラムが速くなることを確認し、どのように`lazy import`を導入するとよいかという話がされました。
+lazy importについては以下の公式ドキュメントを確認してください。
+
+* [PEP 810: Explicit lazy imports](https://docs.python.org/ja/3.15/whatsnew/3.15.html#whatsnew315-lazy-imports)
+
+```{figure} images/jacob.jpg
+:width: 400
+
+Jacob氏
+```
+
+サンプルプログラムの`breadctl`というCLIを使用してトークが進められます。
+コードは以下のGitHubにあります。
+
+* [JacobCoffee/breadctl: Bread Operations Inc.](https://github.com/JacobCoffee/breadctl)
+
+まず問題点とPythonの起動が遅いということが述べられました。
+`--help`オプションを指定してヘルプを表示するだけで234ミリ秒がかかっています。
+これは起動時に全てのモジュールをimportしているために発生しています。
+
+PEP 810で提案されたlazy importはPython 3.15から追加されます。
+以下の様に書くとそのモジュールにアクセスしたときに、初めてimportsれます。
+
+```{code-block} python
+:caption: normal.py
+
+# 起動時にすべてロードされる
+from breadctl import bake
+from breadctl import deliver
+from breadctl import inventory
+
+# それぞれ以下のモジュールが中でimportされている
+# bake: collections、itertools
+# deliver: httpx
+# inventory: sqlite3
+```
+
+```{code-block} python
+:caption: lazy.py
+
+# アクセス時にロードされる
+lazy import breadctl.bake as bake
+lazy import breadctl.deliver as deliver
+lazy import breadctl.inventory as inventory
+```
+
+`lazy import`はどのように動作している野でしょうか。
+まず解析フェーズではLazyModuleプロクシーを作成します。
+この段階ではモジュールは読み込まれていません。
+
+```{code-block} python
+:caption: httpxをlazy importする
+
+lazy import httpx
+```
+
+そして、実際にhttpxモジュールを使用するときに、はじめてモジュールが読み込まれます。
+
+```{code-block} python
+:caption: httpxが読み込まれる
+
+response = httpx.get(url)  # httpxがここで読み込まれる
+```
+
+最初の`--help`オプションのlazy import版を実行すると、234ミリ秒から164ミリ秒と70%の起動時間になりました。
+
+lazy importの活用する場所としてテスト実行の高速化、サーバーレスでの起動、CLIアプリケーションへの活用などがあげられました。
+
+大量のテストコードがある場合には確かに有効そうです。
+Python 3.15に移行したあとにlazy importを試してみたいと思いました。
+
+## How to port a Python kernel to Pyodide for a blazingly fast in-browser coding experience
 
 * https://us.pycon.org/2026/schedule/presentation/78/
 * marimoのノートブックがブラウザ上で動くっぽい
@@ -106,7 +202,7 @@ Astral社のツールは[Ruff](https://docs.astral.sh/ruff/)、[uv](https://docs
 * httpが違う。patchをあてる
 * パフォーマンスをあげるために: Custom Pyodide build、Custom lockfile、Reveal editor before kernel-ready
 
-## Free-threaded Python: past, present and future - PyCon US 2026
+## Free-threaded Python: past, present and future
 
 * https://us.pycon.org/2026/schedule/presentation/63/
 * Thomas Wouters
