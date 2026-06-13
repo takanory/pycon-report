@@ -39,31 +39,53 @@ PSF(Python Software Foundation)はPythonの権利を管理する団体です。
 
 Deb氏からは「魚を与えるだけでなく、釣り方を教えよ」ということわざを引用し、お互いに教えあうことがPythonコミュニティの強みである、と語られました。
 
-PSFの役割としてPythonの商標の管理、PyPIの運営サポート、多様性の支援が行われていることが紹介されました。
-
-## Mind the Gap
-
-* Mind the gap! Why static typing requires more than just adding annotations - PyCon US 2026
-* https://us.pycon.org/2026/schedule/presentation/15/
-* コード例を示して型ヒントでどういうことがあるか説明
-* 型ヒントを入れたときのメリットなどを説明
-
 ## PEP 750 - T-strings: safer and smarter string processing - PyCon US 2026
 
-* https://us.pycon.org/2026/schedule/presentation/70/
-* ブラジルの人
-* Python公式ドキュメントの翻訳やっている
-* ログを人用とマシン用に出し分ける例
+* トーク概要：<https://us.pycon.org/2026/schedule/presentation/70/>
+* スピーカー：[Vinícius Gubiani Ferreira](https://us.pycon.org/2026/speaker/profile/73/)
+* スライド：<https://github.com/vinigfer/pyconus_2026_slides/tree/main>
+
+本トークではブラジルからやってきたVinícius氏から、Python 3.14で導入されたt-stringsについて紹介されました。
+t-stringsについては以下の公式ドキュメントやgihyo.jpの記事を参照してください。
+
+* [PEP 750: テンプレート文字列リテラル](https://docs.python.org/ja/3.14/whatsnew/3.14.html#whatsnew314-template-string-literals)
+* [t-string：テンプレート文字列リテラルの紹介 | gihyo.jp](https://gihyo.jp/article/2025/11/monthly-python-2511)
+
+t-stringsでは文字列ではなくTemplateオブジェクトが生成されること、`strings`と`interpolation`といった基本的な構造が説明されました。
+
+トークの後半では具体的なユースケースとしてセキュリティ対策（XSSやSQLインジェクション等）、Jinjaなどの代わりとなるテンプレート、ログ出力処理についてあげられていました。
+ログ出力については、1つのテンプレート文字列から人が読みやすいテキスト形式のログと、コンピューターが読みやすいJSON形式のログをそれぞれ出力するという例を、サンプルコードを交えて解説していました。
+
+ログ出力の出し分けは、なかなか実用的だなと感じました。
+今後どこかで使用するかもしれません。
 
 ## What's so hard about writing a type checker? A tour of ty - PyCon US 2026
 
-* https://us.pycon.org/2026/schedule/presentation/143/
-* tyのlaziness
-  * 依存関係グラフを持っている
-  * その中でも必要なところしかチェックしない
-  * query-based architecture
-  * RustのSalsaを使って依存関係を管理
-  * Salsaで必要なときにキャッシュを使わなくなる
+* トーク概要：<https://us.pycon.org/2026/schedule/presentation/143/>
+* スピーカー：[Carl Meyer - PyCon US 2026](https://us.pycon.org/2026/speaker/profile/151/)
+
+本トークではAstral社のエンジニアであるCarl Meyer氏から、Pythonの静的型チェッカーtyの内部構造について解説がされました。
+tyは高速な方チェッカーであり、高速に動作するためにアーキテクチャーやさまざまな工夫について語られました。
+
+* ty公式ドキュメント：<https://docs.astral.sh/ty/>
+
+```{figure} images/carl-meyer.jpg
+:width: 400
+
+Carl Meyer氏
+```
+
+tyの設計上の目標は高速に動作することであり、そのために**laziness（怠惰）**の原則に基づいて開発されています。
+ここでいうlazinessは「不要なことはせずに、必要なときに行う（遅延処理する）」ということです。
+
+tyではコードの依存関係グラフを持っています。
+そしてtyの実行時に変更された箇所を検知し、その箇所に依存しているコードのみを型チェックの対象とします。
+
+また内部ではRustの[Salsa](https://github.com/salsa-rs/salsa)を使用して自動的に情報のキャッシュが行われ、同じ入力を与えた場合にはSalssaは再計算を行わずにキャッシュから結果を返します。
+また、依存グラフもSalsa内にあるため、必要な場合にはキャッシュを自動的に無効化します。
+
+tyを高速に動作させるためにはただ単にrustを使っているというだけでなく、いろいろと内部のアーキテクチャでも工夫をしているということが感じられるトークでした。
+Astral社のツールは[Ruff](https://docs.astral.sh/ruff/)、[uv](https://docs.astral.sh/uv/)も高速に動作しますが、それぞれにさまざまな工夫がされていると感じるトークでした。
 
 ## The Bakery: How PEP810 sped up my bread operations business - PyCon US 2026
 
