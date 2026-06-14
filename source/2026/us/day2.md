@@ -39,20 +39,30 @@ PyCon USには世界中から参加者が集まります。英語で発表する
 ````
 
 
-## Member Lunch
+## PSF Member Lunch
 
-* Grantの期間はみじかくなった
-* 金額はAfricaが多いなぁ
-* 質疑応答
-* 寺田さんと吉田さんの質問
+PSF Member LunchはPython Software Foundation（PSF）のスタッフ、理事やメンバーが参加して、ランチをとりながらPSFの運営状況について共有、ディスカッションをする場です（筆者はメンバーとして参加）。
+
+各地域ごとの支援金額のグラフでは、2024年から2025年かけてアジア地域では12%から6%とかなり割合が減っています。
+これは、2025年の途中で資金が足りなくなり、助成金プログラムを停止した影響があると思います。
+2025年の後半にPyConを開催予定だった多くのアジアの国と地域がPSFの助成を受けることができませんでした。
+
+```{figure} images/funds.jpg
+:width: 600
+
+地域ごとの助成金額の推移
+```
+
+また、このイベントの中でPyCon US 2027がロングビーチで開催されることが報告されました。
+来年もロングビーチです。
 
 ````{admonition} コラム：(yoshida MemberLunchについて書かない?)
 ここにコラムを書いてね
 ````
 
-## Tachyon: Python 3.15's sampling profiler is faster than your code - PyCon US 2026
+## Tachyon: Python 3.15's sampling profiler is faster than your code
 
-* https://us.pycon.org/2026/schedule/presentation/31/
+* トーク概要：<https://us.pycon.org/2026/schedule/presentation/31/>
 * python -m profile.sampling
 * capture mode
 
@@ -102,6 +112,48 @@ PyCon US 2026で登壇する筆者
 三年続けてプロポーザルを書いてみて、話すテーマは、やはり普段の開発の中にあるのだと感じています。日々の仕事やOSS活動で何度も見かける小さな違和感を、丁寧に整理して言葉にすること。それもまた、Pythonコミュニティに知見を共有する一つの形なのだと思います。
 ````
 
-## mypyc?
-
 ## PyLadis Auction
+
+カンファレンス2日目の夜にはPyLadies Auctionがあります。
+このイベントはPyCon USの関係者（スポンサーやスタッフなど）がグッズを提供し、オークション形式で競り落とすというものです。
+落札されたお金は全てPyLadiesに寄付されて、PyLadiesの運営資金となるチャリティオークションです。
+
+会場では丸テーブルでディナーを楽しみながらオークションに参加します。
+前方のステージでグッズを紹介し、参加者が札を掲げて商品を競り合います。
+
+```{figure} images/auction1.jpg
+:width: 600
+
+オークション会場
+```
+
+写真の通りさまざまなアイテムが出品されています。
+透明のスケートボードはSentry提供、Meta提供のPythonレゴセットはすごくほしいですが、当然ですが金額的に全然無理でした。
+
+```{figure} images/auction2.jpg
+:width: 600
+
+さまざまなアイテム
+```
+
+```{figure} images/auction3.jpg
+:width: 300
+
+Meta提供のPythonレゴ
+```
+
+オークション会場で、PyCon JP 2026のキーノート[^keynote]であるCarol Willingにあいさつをしました。
+Carolさんと筆者はPyCon Malaysia 2019[^pyconmy]で初めて会って、その後東京でも一緒にビールを飲んだりしています。
+「日本でまた会えることを楽しみにしています。ビールに行きましょう！！」といった話を振ると「東京でもなにかやりたいですね」とうれしい提案がありました。
+
+具体的にどうなるかはわかりませんが、ご期待ください。
+
+```{figure} images/carol.jpg
+:width: 600
+
+Carol Willingさんと
+```
+
+
+[^keynote]: [PyCon JP Blog: PyCon JP 2026 キーノートスピーカーのご紹介](https://pyconjp.blogspot.com/2026/06/2026-keynote-ja.html)
+[^pyconmy]: [データサイエンスの実践に必要な4つの柱とは？ ―「PyCon Malaysia 2019」レポート | gihyo.jp](https://gihyo.jp/news/report/2019/09/0901)
