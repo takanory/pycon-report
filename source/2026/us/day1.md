@@ -274,11 +274,30 @@ Seongsoo Cho氏
 パーティーの様子
 ```
 
-1次会はあんまりいいビールがなかったので、アジアメンバーを中心に声をかけて[ISM Brewing](https://ism.beer/)に飲みに行きました。
+パーティーにはあんまりいいビールがなかったので、アジアメンバーを中心に声をかけて[ISM Brewing](https://ism.beer/)に飲みに行きました。
 日本、韓国、香港、アメリカと多国籍な感じで楽しくビールを飲みました（いつものこと）。
 
 ```{figure} images/day1-party2.jpg
 :width: 400
 
-パーティーの様子
+ISM Brewingでビールパーティー
 ```
+
+````{admonition} コラム：「PyCon US 2026 参加報告会」のお知らせ
+
+日本と香港から参加したメンバー5人が、それぞれの視点でPyCon USでの体験を語る「PyCon US 2026 参加報告会」というイベントを6月29日（月）に開催します。
+渋谷のHENNGEさんとオンラインのハイブリッド開催です。
+
+PyCon USなど海外イベントってどんな感じなんだろう、自分も挑戦してみたいなど、興味のある方はぜひご参加ください。
+現地の懇親会では「PyCon US 2026 おみやげのプレゼント」もあります！！
+
+* [PyCon US 2026 参加報告会 - connpass](https://pyconjp.connpass.com/event/395452/)
+
+```{figure} images/connpass.png
+:width: 400
+
+PyCon US 2026 参加報告会のconnpassページ
+```
+
+````
+
