@@ -1,4 +1,26 @@
-# Day 3
+# カンファレンス3日目
+
+*タイムテーブル：<https://us.pycon.org/2026/schedule/talks/#May17>
+
+## ライトニングトーク
+
+PyCon USではカンファレンス中に4回（1日目夕、2日目朝、夕、3日目夕）ライトニングトークがあります。
+2日目の朝は寺田さんがライトニングトークをしていました。
+最後のライトニングトークに通ったので発表してきました。
+タイトルは「Find Better 🐱 Cat Emojis with your text!」で、昨年のライトニングトーク[^2025-lt]の続きとなるトークです。
+
+* スライド：[Find Better 🐱 Cat Emojis with your text!](https://slides.takanory.net/slides/20260517pyconus/#/)
+
+今回も昨年同様、冒頭で「Do you like Cats?（ネコは好きですか？⁠）⁠」と問いかけて会場から「Yeeees!!」と答えてもらうところから本題をはじめました。
+聴衆の中には「あれ、この流れ去年あったな？」と思ってくれた人もいたんじゃないかなと期待しています。
+
+```{figure} images/takanory-lt.jpg
+:width: 600
+
+筆者のライトニングトークの様子
+```
+
+[^2025-lt]: [#03 Python Steering Councilの活動の今 ―PyCon USカンファレンス3日目/スプリントレポート | gihyo.jp](https://gihyo.jp/article/2025/06/pycon-us-2025-03)
 
 ## ポスターセッション、ジョブフェア
 
