@@ -1,4 +1,6 @@
-# Day 2
+# カンファレンス2日目
+
+* タイムテーブル：<https://us.pycon.org/2026/schedule/talks/#May16>
 
 ````{admonition} コラム：(terapyon LTコラム)
 このコラムはPython Asia Organizationの寺田（[@terapyon](https://x.com/terapyon)）がお届けします。
