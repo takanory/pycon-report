@@ -22,6 +22,11 @@ PyCon USではカンファレンス中に4回（1日目夕、2日目朝、夕、
 
 [^2025-lt]: [#03 Python Steering Councilの活動の今 ―PyCon USカンファレンス3日目/スプリントレポート | gihyo.jp](https://gihyo.jp/article/2025/06/pycon-us-2025-03)
 
+## PSF - Update from our Security Engineers
+
+* スピーカー：Seth Michael Larson、Mike Fiedler
+* スライド：https://speakerdeck.com/sethmlarson/psf-security-engineer-update-pycon-us-2026
+
 ## ポスターセッション、ジョブフェア
 
 ````{admonition} コラム：肩の力を抜いて楽しむPyCon US
