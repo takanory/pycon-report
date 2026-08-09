@@ -156,6 +156,8 @@ Python Asiaが音頭をとった飲み会に参加した時は、アジア各地
 * トーク概要：<https://us.pycon.org/2026/schedule/presentation/127/>
 * スピーカー：[Michael Scott Asato Cuthbert](https://us.pycon.org/2026/speaker/profile/137/)
 
+(TODO：中身を書く)
+
 ```{figure} images/michael.jpg
 :width: 600
 
@@ -164,6 +166,8 @@ Michael氏
 
 
 ## Keynote — Rachell Calhoun & Tim Schilling
+
+(TODO：中身を書く)
 
 ```{figure} images/tim.jpg
 :width: 600
