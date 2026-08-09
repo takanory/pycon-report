@@ -1,6 +1,8 @@
 # カンファレンス3日目
 
-*タイムテーブル：<https://us.pycon.org/2026/schedule/talks/#May17>
+カンファレンス最終日です。この日は筆者自身のライトニングトーク、PSFのセキュリティエンジニアや、Steering Councilからのトークなどがありました。
+
+* タイムテーブル：<https://us.pycon.org/2026/schedule/talks/#May17>
 
 ## ライトニングトーク
 
@@ -25,9 +27,68 @@ PyCon USではカンファレンス中に4回（1日目夕、2日目朝、夕、
 ## PSF - Update from our Security Engineers
 
 * スピーカー：Seth Michael Larson、Mike Fiedler
-* スライド：https://speakerdeck.com/sethmlarson/psf-security-engineer-update-pycon-us-2026
+* スライド：<https://speakerdeck.com/sethmlarson/psf-security-engineer-update-pycon-us-2026>
+
+PSF（Pythonソフトウェア財団）のセキュリティエンジニアであるSeth氏とMike氏からの発表です。
+
+```{figure} images/seth_and_mike.jpg
+:width: 600
+
+Seth氏（左）とMike氏
+```
+
+Pythonではパッケージのリポジトリとして[PyPI](https://pypi.org/)が存在します。
+このリポジトリは日々攻撃にさらされており、セキュリティエンジニアのお二人はそれらの攻撃にも対処しています。
+直近では特定のプロジェクトではなく、依存関係にあるプロジェクトを狙う手法があり、LightLLMなどのサプライチェーン攻撃などが発生しています。
+
+* 参考：[AIゲートウェイがバックドアに：LiteLLMサプライチェーン侵害の内幕 | トレンドマイクロ (JP)](https://www.trendmicro.com/ja_jp/research/26/d/inside-litellm-supply-chain-compromise.html)
+
+パッケージをアップロードするための認証情報を盗まれないための、**Trusted Publishers** プロトコルについても紹介されました。
+このプロトコルを適用すると短い期間で期限が切れるトークンを使用するため、より安全にパッケージが公開できます。
+
+* [GitHub Actionsでデジタル証明書付きPythonパッケージをリリースする方法 | gihyo.jp](https://gihyo.jp/article/2025/05/monthly-python-2505)
+
+また、セキュリティ対策はAmazon、Google、Bloomberg、Alpha Omegaなどの企業の支援によって支えられています。
 
 ## ポスターセッション、ジョブフェア
+
+* ポスター一覧：<https://us.pycon.org/2026/schedule/posters/list/>
+
+Day 3は10時から13時までの3時間ポスターセッションとジョブフェアが行われておりトークはありません。
+ポスターセッションはA0程度のサイズのポスターの前発表を行うスタイルです。
+ジョブフェアは企業がブースを出して求職者と直接話ができる場です。
+
+ポスターセッションにはPyCon Taiwanのメンバーでもあるpetertc氏がいました。
+petertc氏はPyCon USに参加するのは初めてだそうです。
+発表の内容はPythonからC言語のIOCTLとやりとりすることで、デバイスを直接制御するというものです。
+実際に業務でも利用しているそうです。
+
+```{figure} images/peter.jpg
+:width: 600
+
+petertc氏
+```
+
+他に朝のライトニングトークで紹介されていた、火星探査をするローバーの実物が展示されていました。
+[JPL Open Source Rover](https://open-source-rover.readthedocs.io/en/latest/)というプロジェクトだそうです。
+多くの来場者が教務深く見ていました。
+
+```{figure} images/rover.jpg
+:width: 400
+
+ローバーの実物
+```
+
+ジョブフェアを眺めていると[Tower Research Capital](https://tower-research.com/)という会社のブースにたくさんの人がいます。
+近づいてみると結構しっかりしたバックパックをグッズとして配布しています。
+話を聞いて見ると特に登録とかしなくてもOKということで、お礼を言ってバックパックをもらいました。
+周りにもこのバックパックを持っている人がたくさんいました。
+
+```{figure} images/best-swag.jpg
+:width: 600
+
+ベストPyCon US 2026グッズ
+```
 
 ````{admonition} コラム：肩の力を抜いて楽しむPyCon US
 橘祐一郎（[@whitphx](https://github.com/whitphx/)）です。
@@ -89,3 +150,53 @@ Python Asiaが音頭をとった飲み会に参加した時は、アジア各地
 
 こんな感じで、意識の低い参加の仕方をしてみました。十分に楽しめましたし、それもアリではないかと思います、ということでこのコラムを締めたいと思います。
 ````
+
+## Learning Computer Science with Python and Music(21) 
+
+* トーク概要：<https://us.pycon.org/2026/schedule/presentation/127/>
+* スピーカー：[Michael Scott Asato Cuthbert](https://us.pycon.org/2026/speaker/profile/137/)
+
+```{figure} images/michael.jpg
+:width: 600
+
+Michael氏
+```
+
+
+## Keynote — Rachell Calhoun & Tim Schilling
+
+```{figure} images/tim.jpg
+:width: 600
+
+Tim氏
+```
+
+## Python Steering Council
+
+```{figure} images/council.jpg
+:width: 600
+
+5名のSteering Councilメンバー
+```
+
+## Python Software Foundation Update
+
+```{figure} images/deb.jpg
+:width: 600
+
+Deb氏
+```
+
+## Closing
+
+```{figure} images/closing1.jpg
+:width: 600
+
+参加者数などの情報
+```
+
+```{figure} images/closing2.jpg
+:width: 600
+
+PyCon US 2027もLong Beachで開催
+```

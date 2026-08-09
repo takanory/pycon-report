@@ -1,5 +1,7 @@
 # カンファレンス2日目
 
+カンファレンス2日目です。この日は筆者は同行した寺田さんの発表、PSF Member Lunch、PyLadies Auctionなどさまざまなイベントがありました。
+
 * タイムテーブル：<https://us.pycon.org/2026/schedule/talks/#May16>
 
 ````{admonition} コラム：(terapyon LTコラム)
