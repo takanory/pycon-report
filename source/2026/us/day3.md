@@ -173,13 +173,39 @@ Tim氏
 
 ## Python Steering Council
 
+Pythonの言語仕様はPEP（Python Enhancement Proposal）というドキュメントで提案されますが、その採用、不採用を決めるのが5名のSteering Councilメンバーです。
+Steering Councilメンバーは毎年CPythonのコア開発者の投票によって決まります。
+2026年のメンバーについては以下のドキュメントを参照してください。
+
+* [PEP 8107 – 2026 Term Steering Council election](https://peps.python.org/pep-8107/)
+
 ```{figure} images/council.jpg
 :width: 600
 
 5名のSteering Councilメンバー
 ```
 
+最初にSteering Councilメンバーの紹介や開発体制について話がありました。
+最近はコア開発者が一同に介して一週間程度の開発スプリントを行っています。
+2026年はOpenAIがホストとなって開催されるそうです。
+
+続いて、2026年10月にリリース予定のPython 3.15の新機能について紹介がありました。
+Lazy imports（遅延インポート）、immutable（不変）な辞書、カラー表示の追加、新しいプロファイラー（Tachyon）などが紹介されました。
+
+また、PEP 772[^pep772]によってPackaging CouncilというPythonのパッケージングに関する委員会を設立することが紹介されました。
+
+[^pep772]: [PEP 772 – Packaging Council governance process](https://peps.python.org/pep-0772/)
+
+他にはPythonの将来についての話がありました。
+Free-threadingのデフォルト化は近い将来（3.16から3.20のどこか）で実現したいとのことです。
+標準ライブラリにRustを導入することが検討されているとのことで、現在は検証を行っているところだそうです。
+
+Rustの導入がどうなるかは注視していきたいと思います。
+
 ## Python Software Foundation Update
+
+Closingの前にPSFのExective DirectorであるDeb Nicholson氏より、PSFの最新情報についての共有がありました。
+PSFはPythonの権利を有しており、Python言語の普及、保護、発展を目指して活動している財団です。
 
 ```{figure} images/deb.jpg
 :width: 600
@@ -187,7 +213,19 @@ Tim氏
 Deb氏
 ```
 
+PSFの大きなニュースとして、アメリカ府（国立科学財団：NSF）からの150万ドル（約2.2億円）の助成金を辞退したことが報告されました。
+これは、助成金の契約の中に多様性、公平性、包含性（DEI）に関する活動を制限する内容が含まれていたためです。
+そのためPSFは助成金を拒否したとのことです。
+この件に関する詳細な情報は以下のブログを参照してください。
+
+* [Python Software Foundation News: The PSF has withdrawn a $1.5 million proposal to US government grant program](https://pyfound.blogspot.com/2025/10/NSF-funding-statement.html)
+
 ## Closing
+
+クロージングではイベントのChairであるElaine Wong氏が登壇し、関係者への感謝が述べられました。
+イベントを表す数字としては参加者数が2003名、そのうち57.2%が初参加者とのことです。
+また、151名のオンサイトのボランティア、148名の発表者、135のオープンスペースが開催されました。
+PyCon USはやはり規模が大きいですね。
 
 ```{figure} images/closing1.jpg
 :width: 600
@@ -195,8 +233,82 @@ Deb氏
 参加者数などの情報
 ```
 
+そしてPyCon US 2027のChairが発表されました。
+2026ではCo-Chairを担当していたJon Banafato氏が、2027ではChairとなるそうです。
+
+PyCon US 2027は2027年5月13日から18日に、2026と同じロングビーチで開催することが報告されました。
+
 ```{figure} images/closing2.jpg
 :width: 600
 
 PyCon US 2027もLong Beachで開催
 ```
+
+## 各国PyConの宣伝
+
+いつもはここでイベントが終わるんですが、今回はClosingのあとに各国PyConの宣伝タイムがありました（今までは朝のライトニングトークでした）。
+1イベント1スライドを30秒程度で、各主催者が宣伝しました。
+なにげに私はこのイベント宣伝をPyCon USでするのは初めてでした。
+1日に2回メインステージに上がることができて、ラッキーです。
+
+他にアジアからはPyCon Singapore、Indonesia、Korea、Taiwan、Hong Kongなどが宣伝をしていました。
+
+```{figure} images/pyconjp-announce.jpg
+:width: 600
+
+PyCon JP 2026を宣伝しているところ（後ろに他イベントの主催者）
+```
+
+## 最後のパーティー
+
+PyConのカンファレンスは終わりましたが、まだ終わりません！！
+参加者が集まっているお店に行ってパーティーです。
+このお店で飲んでいるときに、韓国から参加している初めての人とあいさつをすると「takanoryなの！？」と私のことを知っているようでした。
+いったい、韓国でどういう噂をされているんだろう...
+
+```{figure} images/party.jpg
+:width: 600
+
+パーティー
+```
+
+そのあとはローカルのクラフトビールが飲みたいので、アジアメンバー中心で[Beachwood Brewing: Downtown Blendery and Taproom](https://beachwoodbrewing.com/blendery.html#)に移動しました。
+疲れている？のか、なぜかみんな床に座ってビールを飲んでいます（謎）。
+こうしてPyCon USのカンファレンスは無事に終わりました。
+
+```{figure} images/asian-style.jpg
+:width: 600
+
+なぜか床に座って飲む人々
+```
+
+## 終わりに
+
+次の日（5月18日）はスプリントに参加し、夜にアナハイムに移動しました。
+そして5月19日は2回目のカリフォルニアディズニーランドに訪問しました。
+いつものようにほぼスターウォーズエリアに1日中いるというスタイルです。
+
+最近出没するようになったハン・ソロがいたので「日本から来たんですよー」みたいに会話をして写真を撮ってもらいました。
+
+```{figure} images/hansolo.jpg
+:width: 600
+
+ハン・ソロ（本物）と握手
+```
+
+その後は飛行機の都合でシアトル（初訪問）に移動し、ビール友達のShaneと毎日ビールを飲みまくり、大量のビールをおみやげにもらって無事帰国しました。
+ビールが多すぎて、初めて関税を100円払いました。
+
+```{figure} images/beer-and-dog.jpg
+:width: 600
+
+シアトルのビールの店はどこも犬同伴が可能、とてもいい所
+```
+
+さー、楽しかったし、来年もロングビーチ（とディズニーランド）に行くかー。
+
+筆者と寺田さんがパーソナリティをしているPyCon JP TVでもPyCon USについて報告しています。
+もしよかったらこちらも見てみてください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/40mIepqo3k0?si=Iud1i-dLvggrJUFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
