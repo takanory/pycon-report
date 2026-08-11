@@ -68,6 +68,7 @@ PSF Member LunchはPython Software Foundation（PSF）のスタッフ、理事�
 
 * トーク概要：<https://us.pycon.org/2026/schedule/presentation/31/>
 * スピーカー：[Pablo Galindo Salgado](https://us.pycon.org/2026/speaker/profile/32/)、[Laszlo Kiss Kollar](https://us.pycon.org/2026/speaker/profile/33/)
+* 録画：<https://www.youtube.com/watch?v=f1x4X83CDSA>
 
 本トークではPython 3.15で新しく追加されるプロファイラー **Tachyon** （タキオン）の、開発の背景や高速化のポイント、実際の使い方について紹介されました。
 プロファイラーとはプログラムの実行中の状態を監視や記録し、各処理の実行時間や関数の呼び出し回数などを解析するためのツールです。

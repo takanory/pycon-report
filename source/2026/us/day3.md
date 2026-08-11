@@ -155,8 +155,9 @@ Python Asiaが音頭をとった飲み会に参加した時は、アジア各地
 
 * トーク概要：<https://us.pycon.org/2026/schedule/presentation/127/>
 * スピーカー：[Michael Scott Asato Cuthbert](https://us.pycon.org/2026/speaker/profile/137/)
+* 録画：<https://www.youtube.com/watch?v=PhkGSj-KKD4>
 
-(TODO：中身を書く)
+このトークは、[music21](https://github.com/cuthbertLab/music21)というPython製の音楽分析ツールキットを使って、コンピュータサイエンス（CS）の基礎を学習する取り組みの紹介でした。
 
 ```{figure} images/michael.jpg
 :width: 600
@@ -164,16 +165,38 @@ Python Asiaが音頭をとった飲み会に参加した時は、アジア各地
 Michael氏
 ```
 
+Michael氏は学生にCSを教えており、データベース設計やボット開発のようなアプリケーションは関心を引きにくい課題があるそうです。
+そこで、CSの応用コースでmusic21と音楽理論を取り入れることによって、より学生の創造性を引き出し、CSへの理解度も高めることができているそうです。
+
+```{figure} images/music21.jpg
+:width: 600
+
+music21のデモの様子
+```
+
+筆者は趣味の吹奏楽でトランペットを吹いており、音楽関係のライブラリとしてmusic21は興味深いものでした。
+JupyterLab上でPythonのプログラムを書くと、その音やコードの楽譜が表示されたり、MIDIを再生できたりします。
+確かに音楽は、同じようなパターンの反復や音程の移動を行うことがあるので、プログラミングの考え方と重なる部分があると思いました。
+個人的にmusic21を自分の音楽活動で活かせないか、ちょっと調べてみようと思います。
 
 ## Keynote — Rachell Calhoun & Tim Schilling
 
-(TODO：中身を書く)
+PyCon US最後のキーノートは、[Djangonaut Space](https://djangonaut.space/)の共同設立者であるRachell Calhoun氏とTim Schilling氏によるものでした。
+Djangonaut Spaceは、Python製のWebフレームワークであるDjangoのトレーニングプログラムを提供するコミュニティです。
+自己学習プログラムと8週間のメンターシッププログラムを提供しており、Djangoへのコードの貢献を行い、将来のDjangoのコア開発者やメンテナーを育成することを目的としています。
 
 ```{figure} images/tim.jpg
 :width: 600
 
 Tim氏
 ```
+
+参加者をサポートするために「ナビゲーター」と「キャプテン」という2つの役割があり、ナビゲーターはプロジェクトを推進するための技術的な支援、キャプテンは一人一人によりそった支援を行うそうです。
+過去の参加者が成長して次のナビゲーターやキャプテンを務めるといった、コミュニティ内での良い循環もあるそうです。
+
+コミュニティの取り組みとして興味深いなと感じました。
+一方で、体制を維持して運営を継続するのはかなり大変なのではないかとも思いました。
+Djangoへの貢献に興味のある方は、ぜひこの取り組みを参照してみてください。
 
 ## Python Steering Council
 
