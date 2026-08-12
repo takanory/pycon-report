@@ -64,14 +64,14 @@ PSF Member LunchはPython Software Foundation（PSF）のスタッフ、理事�
 一般社団法人PyCon JP Association理事の吉田([@koedoyoshida](https://twitter.com/koedoyoshida/))です。PyCon US のメンバーランチに参加してきました。
 
 ```{figure} images/member-lunch-desc.jpg
-:height: 400
+:width: 600
 
 Deb Nicholson氏の説明の様子
 ```
 
 
 ```{figure} images/member-lunch-food.jpg
-:height: 400
+:width: 400
 
 食事の様子
 ```
