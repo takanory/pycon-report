@@ -1,6 +1,6 @@
 # pycon-report
 
-* https://pycon-report.readthedocs.io/ja/latest/
+* https://pycon-report.pages.dev/2026/
 
 ## build
 
