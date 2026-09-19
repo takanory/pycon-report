@@ -18,7 +18,7 @@ PyCon Korea 2026のイベント概要は以下の通りです。
 |主催| Python Korea |
 
 公式サイトは以下の様なデザインで、ドット絵で描かれた遊園地でレトロ感があります。
-「**Make it hap.py**」というの言葉が今年のテーマのようです。
+「**Make it hap.py**」という言葉が今年のテーマのようです。
 
 ```{figure} images/pyconkorea2026.png
 :width: 600
@@ -45,7 +45,7 @@ Welcome Seoulのサイン
 
 カンファレンス会場からそれほど遠くないところにホテルをとったので歩いて会場に向かいました。
 Dongguk Universityという大学がカンファレンス会場です。
-あとでも説明しますが、複数の建物を横移動したり、しかも斜面に複数の建物が建っているため、あるビルの9階から外に出ると普通に地上だったりして、建物の構造が複雑でしたが、そういうところも含めて大学っぽいなと感じました。
+大学は斜面に沿って複数の校舎が建っているため、構造が複雑でした。そのため、複数の建物を横移動したり、あるビルの9階から外に出ると普通に地上だったりして、そういうところも含めて大学っぽいなと感じました。
 
 ```{figure} images/university.jpg
 :width: 600
@@ -68,33 +68,33 @@ Deb氏はPython Software Foundation（PSF：Pythonソフトウェア財団）[^p
 Deb Nicholson氏
 ```
 
-なおトークには基本的に[Cockoo](https://www.cuckoo.so/ja)による翻訳が付いており、スライド横のQRコードを読み込むと選択した言語でトークの翻訳が見ることができて便利でした。
+なおトークには基本的に[Cuckoo](https://www.cuckoo.so/ja)による翻訳が付いており、スライド横のQRコードを読み込むと選択した言語でトークの翻訳が見ることができて便利でした。
 英語のキーノートは韓国語の他に日本語と中国語の翻訳が提供されていました。
 以下の様に手元のスマートフォンで日本語で読めるのでありがたいです。
 
 ```{figure} images/translate.png
 :width: 300
 
-Cockooによる翻訳
+Cuckooによる翻訳
 ```
 
-まずはPSFそのものの紹介があり、PSFが存在することによってPythonは特定のベンダーに依存しない中立的な存在でいられるといことが語られていました。
-他に、Pythonのパッケージリポジトリである[PyPI](https://pypi.org/)を運営していること、PyPIのトラフィックは2026年は**2 エクサバイト**になりそうということが語られました。
-単位が大きすぎでどれくらいなのかちょっとピンと来ません。
+まずはPSFそのものの紹介があり、PSFが存在することによってPythonは特定のベンダーに依存しない、中立的な存在でいられることが語られていました。
+他に、Pythonのパッケージリポジトリである[PyPI](https://pypi.org/)を運営していること、PyPIのトラフィックは2026年は**2エクサバイト**になりそうということが語られました。
+単位が大きすぎてどれくらいなのかちょっとピンと来ません。
 
 Deb氏からPythonは「プログラミング言語のカピバラだ」という発言がありました（冒頭の写真）。
 その意味するところは、カピバラはさまざまな動物と仲良く過ごすことができる、Pythonもさまざまなプログラミング言語と連携できるということだそうです。
-PythonとC言語、Java、Go、JavaScript、Fortran、Haskellなど、他言語を連携するさまざまなツールが紹介されました。
+PythonとC言語、Java、Go、JavaScript、Fortran、Haskellなど、他言語と連携するためのさまざまなツールが紹介されました。
 また、システム同士をつなぐ役割もPythonが得意とするところです。
 
 また、Deb氏が友人に助けを求めた話もありました。
 PSFが米国政府の助成金を受けるために、どのような書類を用意するか、助成金の額をいくらにするかなどを、この助成金を受けている友人に相談したそうです。
 その結果助成金の申請が無事にできたとのことで、同様にプログラミングの学習や困難なプロジェクトに対しても、1人で悩まずに友人に助けを求めましょうと語られていました。
 
-最後に参加者にコミュニティもっと参加してほしい、とアクションプランがいくつか提案されました。
+最後に参加者に「コミュニティにもっと参加してほしい」とアクションプランがいくつか提案されました。
 
 * Python使っている企業であれば[PSFのスポンサー](https://www.python.org/psf/sponsors/)となることを検討してほしい。韓国企業のPSFスポンサーもいる
-* ローカルやグローバルのイベントに参加してほしい。ここでは[Python Asia Organization](https://pythonasia.org/)についても紹介していました
+* ローカルやグローバルのイベントに参加してほしい。ここでは[Python Asia Organization](https://pythonasia.org/)についても紹介がありました
 * [PSFのメンバーシップ](https://www.python.org/psf/membership/)への参加と、理事やパッケージングカウンシルへの投票の参加
 * ミートアップなどで周囲へのアピールと共に学ぶこと
 
@@ -106,7 +106,7 @@ PSF、Python、コミュニティ、そして次のアクションへとつな�
 日本からの参加者があまりいないため、筆者はPython Asia Organizationの理事である寺田さんからテーブルクロスを受け取って現地に持っていきました。
 PyCon Koreaではコミュティブースが多数あり、その1つとしてPython Asia Organizationもブースを提供していました。
 
-いつものように日本からお菓子を持っていて参加者に配りつつ、Python Asia Organizationのアピールをしました。
+いつものように日本から持っていったお菓子を参加者に配りつつ、Python Asia Organizationのアピールをしました。
 
 ```{figure} images/pythonasia.jpg
 :width: 600
@@ -128,7 +128,7 @@ PyCon Koreaではコミュティブースが多数あり、その1つとしてPy
 * トーク概要：[Let’s Build a Python Language Support Team](https://2026.pycon.kr/presentations/cbe161d5-d8ea-4bc0-80b8-aadd75c7c971#Lets-Build-a-Python-Language-Support-Team)
 * スピーカー：Donghee Na
 
-このセッションでは、Pythonのコアデベロッパーであり、2025、2026年のPython Steering Councilメンバー[^council]であるDonghee Na氏から、会社の中にPythonの言語サポートチームを構築した事例について紹介しました。
+このセッションでは、Pythonのコアデベロッパーであり、2025、2026年のPython Steering Councilメンバー[^council]であるDonghee Na氏から、会社の中にPythonの言語サポートチームを構築した事例について紹介がありました。
 
 [^council]: [PEP 8107 – 2026 Term Steering Council election | peps.python.org](https://peps.python.org/pep-8107/)
 
