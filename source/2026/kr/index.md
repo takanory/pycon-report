@@ -58,7 +58,7 @@ Dongguk Universityの入り口
 * トーク概要：[Let's Build the Future of Python Together!](https://2026.pycon.kr/presentations/4406c268-1f99-49d5-a932-eeb2637342fb#Lets-Build-the-Future-of-Python-Together)
 
 最初のキーノートはDeb Nicholson氏によるものです。
-Deb氏はPython Software Foundation（PSF：Pythonソフトウェア財団）[^psf]のExcective Directorであり、今回はPyCon Koreaのキーノートのためにアメリカから来ました。
+Deb氏はPython Software Foundation（PSF：Pythonソフトウェア財団）[^psf]のExecutive Directorであり、今回はPyCon Koreaのキーノートのためにアメリカから来ました。
 
 [^psf]: Pythonの知的財産権と商標の管理や、PyPIの運営をする財団 <https://www.python.org/psf-landing/>
 
@@ -68,7 +68,7 @@ Deb氏はPython Software Foundation（PSF：Pythonソフトウェア財団）[^p
 Deb Nicholson氏
 ```
 
-なおトークには基本的に[Cuckoo](https://www.cuckoo.so/ja)による翻訳が付いており、スライド横のQRコードを読み込むと選択した言語でトークの翻訳が見ることができて便利でした。
+なおトークには基本的に[Cuckoo](https://www.cuckoo.so/ja)による翻訳が付いており、スライド横のQRコードを読み込むと選択した言語でトークの翻訳を見ることができて便利でした。
 英語のキーノートは韓国語の他に日本語と中国語の翻訳が提供されていました。
 以下の様に手元のスマートフォンで日本語で読めるのでありがたいです。
 
@@ -93,7 +93,7 @@ PSFが米国政府の助成金を受けるために、どのような書類を�
 
 最後に参加者に「コミュニティにもっと参加してほしい」とアクションプランがいくつか提案されました。
 
-* Python使っている企業であれば[PSFのスポンサー](https://www.python.org/psf/sponsors/)となることを検討してほしい。韓国企業のPSFスポンサーもいる
+* Pythonを使っている企業であれば[PSFのスポンサー](https://www.python.org/psf/sponsors/)となることを検討してほしい。韓国企業のPSFスポンサーもいる
 * ローカルやグローバルのイベントに参加してほしい。ここでは[Python Asia Organization](https://pythonasia.org/)についても紹介がありました
 * [PSFのメンバーシップ](https://www.python.org/psf/membership/)への参加と、理事やパッケージングカウンシルへの投票の参加
 * ミートアップなどで周囲へのアピールと共に学ぶこと
@@ -104,7 +104,7 @@ PSF、Python、コミュニティ、そして次のアクションへとつな�
 ## Python Asia Organizationブース、ランチ
 
 日本からの参加者があまりいないため、筆者はPython Asia Organizationの理事である寺田さんからテーブルクロスを受け取って現地に持っていきました。
-PyCon Koreaではコミュティブースが多数あり、その1つとしてPython Asia Organizationもブースを提供していました。
+PyCon Koreaではコミュニティブースが多数あり、その1つとしてPython Asia Organizationもブースを提供していました。
 
 いつものように日本から持っていったお菓子を参加者に配りつつ、Python Asia Organizationのアピールをしました。
 
@@ -138,7 +138,7 @@ PyCon Koreaではコミュティブースが多数あり、その1つとしてPy
 Donghee Na氏
 ```
 
-会社の規模が大きくなる中で、バージョンの更新、セキュリティ対策、デバッグ、サプライチェーン攻撃への対応などの、システムを運用する上での課題が増えてきます。
+会社の規模が大きくなる中で、バージョンの更新、セキュリティ対策、デバッグ、サプライチェーン攻撃への対応など、システムを運用する上での課題が増えてきます。
 これらを各チームが対応するのではなく、Python言語サポートチームを立ち上げ標準化を行い、運用コストを下げるという狙いとのことです。
 他社事例としてGoogle、Microsoft、Meta、LinkedIn、LINEヤフーに言語サポートチームが存在することが述べられました。
 
