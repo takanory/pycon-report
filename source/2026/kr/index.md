@@ -56,6 +56,7 @@ Dongguk Universityの入り口
 ## Keynote: Deb Nicholson
 
 * トーク概要：[Let's Build the Future of Python Together!](https://2026.pycon.kr/presentations/4406c268-1f99-49d5-a932-eeb2637342fb#Lets-Build-the-Future-of-Python-Together)
+* 動画：<https://www.youtube.com/watch?v=zyDGfvFic78>
 
 最初のキーノートはDeb Nicholson氏によるものです。
 Deb氏はPython Software Foundation（PSF：Pythonソフトウェア財団）[^psf]のExecutive Directorであり、今回はPyCon Koreaのキーノートのためにアメリカから来ました。
@@ -127,6 +128,7 @@ PyCon Koreaではコミュニティブースが多数あり、その1つとし�
 
 * トーク概要：[Let’s Build a Python Language Support Team](https://2026.pycon.kr/presentations/cbe161d5-d8ea-4bc0-80b8-aadd75c7c971#Lets-Build-a-Python-Language-Support-Team)
 * スピーカー：Donghee Na
+* 動画：<https://www.youtube.com/watch?v=5cZkGfiNZwk>
 
 このセッションでは、Pythonのコアデベロッパーであり、2025、2026年のPython Steering Councilメンバー[^council]であるDonghee Na氏から、会社の中にPythonの言語サポートチームを構築した事例について紹介がありました。
 
@@ -152,6 +154,7 @@ Donghee氏が所属する[Karrot](https://www.karrotmarket.com/)では当初は�
 
 * トーク概要：[Growth together with PyLadies Seoul](https://2026.pycon.kr/presentations/077c5c22-fc2d-482f-8855-ff5cc0b74957#Growth-together-with-PyLadies-Seoul)
 * スピーカー：Luna
+* 動画：<https://www.youtube.com/watch?v=4A8QtEaV5do>
 
 このセッションでは[PyLadies Seoul](https://pyladies.kr/en/)の立ち上げメンバーであるLuna氏から、PyLadies Seoulを再始動させて成長してきたプロセス、コミュニティ運営から得られた学びが語られました。
 
@@ -175,6 +178,8 @@ Luna氏は国内の活動だけでなく、PyCon USへの参加、海外のPyLad
 PyLadies Seoulが今後も継続的に発展するとよいなと思います。
 
 ## Lightning Talks
+
+* 動画：<https://www.youtube.com/watch?v=2zNPbMJLyTM>
 
 ライトニングトークからは3本紹介します。
 Kir氏はPyCon Taiwanの運営メンバーをやっており、プロポーザルのレビューをAIと人間で行い、その結果によって採択を行ったという内容です。
@@ -222,6 +227,7 @@ Makino氏
 ## Keynote: Cheuk Ting Ho
 
 * トーク概要：[Python makes us hap.py](https://2026.pycon.kr/presentations/26a6f8c6-f896-46fa-9e98-fad5305b30e0#Python-makes-us-happy--the-joy-of-finding-a-community-where-you-belong)
+* 動画：<https://www.youtube.com/watch?v=Q4S-jEFw76g>
 
 Day 2最初のキーノートはPSFの理事であるCheuk Ting Ho氏から「Python Makes Us Hap.py」と題して、Cheuk氏のバックグラウンドストーリーが語られました。
 
@@ -258,6 +264,7 @@ Cheuk氏がどん底からPythonコミュニティに出会って今の活躍が
 ## Keynote: Hugo van Kemenade
 
 * トーク概要：[How to become a Python release manager](https://2026.pycon.kr/presentations/50fe8d0c-6c1a-4a11-866d-f10a5141791e#How-to-become-a-Python-release-manager)
+* 動画：<https://www.youtube.com/watch?v=lqqrTy9sIjo>
 
 最後のキーノートはHugo van Kemenade氏です。
 Hugo氏はCPythonのコア開発者であり、Python 3.14と3.15のリリースマネージャーを務めています。
@@ -298,6 +305,7 @@ Pythonのリリースサイクル
 
 * トーク概要：[Building a DJ Workflow with Python](https://2026.pycon.kr/presentations/29e2ba75-3cfd-4e6d-bb46-0955c48027b7#Building-a-DJ-Workflow-with-Python)
 * スピーカー：SiYeong Jang
+* 動画：<https://www.youtube.com/watch?v=keBdXG-d7rI>
 
 このトークではアニソン/サブカルチャーDJをしているSiYeong氏が、DJを行うために作成した音楽分析、可視化、自動化ツール**Mixlyzer**についてデモを交えて紹介しました。
 
@@ -318,6 +326,8 @@ SiYeong Jang氏
 自分がDJを行うためにツールを作り込むのは、すごいなと思いました。
 
 ## クロージング
+
+* 動画：<https://www.youtube.com/watch?v=5Zg1W0W74ZY>
 
 クロージングの前半ではスポンサーやコミュニティのみなさんに感謝状のようなものが贈られていました。
 そしてクロージングが始まるかと思ったら前の方になにやら人が集まりはじめました。
