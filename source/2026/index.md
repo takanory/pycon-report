@@ -5,5 +5,7 @@
 :caption: Contents:
 :glob:
 
-*/index
+us/index
+kr/index
+tw/index
 ```
